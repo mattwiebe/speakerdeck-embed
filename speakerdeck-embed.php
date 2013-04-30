@@ -8,8 +8,8 @@ Author: Matt Wiebe
 Author URI: http://somadesign.ca/
 */
 
-add_action( 'init', 'sd_add_speakerdeck_oembed' );
-function sd_add_speakerdeck_oembed() {
+add_action( 'init', 'speakerdeck_add_speakerdeck_oembed' );
+function speakerdeck_add_speakerdeck_oembed() {
 	wp_oembed_add_provider( '#https?://speakerdeck.com/.*#i', 'https://speakerdeck.com/oembed.json', true );
 }
 
@@ -19,8 +19,8 @@ function sd_add_speakerdeck_oembed() {
  * - [speakerdeck https://speakerdeck.com/u/maxcutler/p/hack-with-me-unit-and-behavioral-tests]
  * - [speakerdeck url='https://speakerdeck.com/u/maxcutler/p/hack-with-me-unit-and-behavioral-tests']
  */
-add_shortcode( 'speakerdeck', 'sd_shortcode' );
-function sd_shortcode( $atts ) {
+add_shortcode( 'speakerdeck', 'speakerdeck_shortcode' );
+function speakerdeck_shortcode( $atts ) {
 	global $wp_embed;
 
 	if ( ! empty( $atts[0] ) )
