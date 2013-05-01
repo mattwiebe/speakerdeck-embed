@@ -15,6 +15,11 @@ Add Speaker Deck presentations really easily. Just paste the speakerdeck.com URL
 
 This plugin talks to Speaker Deck's oEmbed provider and transparently embeds your slideshow.
 
+Or, use it via a shortcode if your prefer. These formats work:
+
+	[speakerdeck http://speakerdeck.com/u/mattwiebe/p/power-your-portfolio-with-wordpress]
+	[speakerdeck url="http://speakerdeck.com/u/mattwiebe/p/power-your-portfolio-with-wordpress"]
+
 == Installation ==
 
 1. Upload the `speakerdeck-embed` folder to your `/wp-content/plugins/` directory
