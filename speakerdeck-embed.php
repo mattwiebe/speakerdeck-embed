@@ -3,7 +3,7 @@
 /*
 Plugin Name: Speaker Deck Embed
 Description: Embed Speaker Deck slideshows
-Version: 1.1
+Version: 1.2
 Author: Matt Wiebe
 Author URI: http://somadesign.ca/
 */

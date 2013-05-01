@@ -2,8 +2,8 @@
 Contributors: mattwiebe
 Tags: slideshow, presentation, embed, oembed, speakerdeck
 Requires at least: 3.2
-Tested up to: 3.2.1
-Stable tag: 1.1
+Tested up to: 3.5.1
+Stable tag: 1.2
 
 Easily embed Speaker Deck presentations in your WordPress blog.
 
@@ -34,8 +34,14 @@ Or, use it via a shortcode if your prefer. These formats work:
 
 == Changelog ==
 
+= 1.2 =
+
+* Add [speakerdeck] shortcode support. Props @danielbachhuber
+
 = 1.1 =
+
 * Update to new Speakerdeck URL format. Props baxang & simonwheatley
 
 = 1.0 =
+
 * Initial release
